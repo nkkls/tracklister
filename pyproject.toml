@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spot2grind"
+dynamic = ["version"]
+description = 'Spotify (and friends) song downloader to ULTRAKILL cybergrind playlist.'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "GNU GPLv3"
+keywords = ["ULTRAKILL", "cybergrind", "Spotify"]
+authors = [
+  { name = "nikolai", email = "105597411+nkkls@users.noreply.github.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/nkkls/spot2grind#readme"
+Issues = "https://github.com/nkkls/spot2grind/issues"
+Source = "https://github.com/nkkls/spot2grind"
